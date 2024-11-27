@@ -191,3 +191,5 @@ dist
 # Lock files and others
 
 *-lock.json
+
+.vscode
