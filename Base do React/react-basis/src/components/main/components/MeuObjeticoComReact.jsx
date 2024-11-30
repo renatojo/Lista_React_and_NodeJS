@@ -1,16 +1,20 @@
-let meusobjetivos = ["Criar interfaces dinâmicas", "Componentizar e reutilizar código", "Criar aplicações de página única (SPAs)."]
-let txt = "";
-
-function Function(value) {
-    
-}
-
+ 
 const MeuObjetivoComReact = () => {
+    const objetivos = [
+        "Criar interfaces dinâmicas", 
+        "Componentizar e reutilizar código", 
+        "Criar aplicações de página única (SPAs).",
+    ];
+
     return(
         <>
-        <div>
             <h3 class="lista">Meus objetivos com react são:</h3>
-            <Function />
+        <div>
+            <ul>
+                {objetivos.map((index) => (
+                    <li key={index}>{objetivos}</li>
+                ))}
+            </ul>
         </div>
         </>
     )
