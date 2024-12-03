@@ -1,4 +1,4 @@
- 
+import "./MeuObjeticoComReact.css";
 const MeuObjetivoComReact = () => {
     const objetivos = [
         "Criar interfaces dinâmicas", 
@@ -9,10 +9,10 @@ const MeuObjetivoComReact = () => {
     return(
         <>
             <h3 class="lista">Meus objetivos com react são:</h3>
-        <div>
+        <div class="goal-card">
             <ul>
-                {objetivos.map((index) => (
-                    <li key={index}>{objetivos}</li>
+                {objetivos.map((objetivo, index) => (
+                    <li key={index}>{objetivo}</li>
                 ))}
             </ul>
         </div>

@@ -1,5 +1,6 @@
 import './Main.css';
 import MeuObjetivoComReact from "./components/MeuObjeticoComReact";
+import CoreConcept from './components/Core-concepts/Core-concepts';
 
 const Main = () => {
     return(
@@ -9,6 +10,8 @@ const Main = () => {
         Atualmente, a biblioteca está em desenvolvimento e pode ser encontrada em <a href="https://reactjs.org/">https://reactjs.org/</a>.
       </p>
       <MeuObjetivoComReact/>
+
+      <CoreConcept />
     </main>
     )
   }

@@ -1,0 +1,15 @@
+#core-concepts{
+    background-color: #cbcbd7;
+    padding: 10px; 
+    width: 32rem;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lista {
+    list-style-type: none;
+    width: 28rem;
+    padding-top: 10px;
+}
